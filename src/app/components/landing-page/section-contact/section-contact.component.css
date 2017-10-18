@@ -1,0 +1,25 @@
+.info-p {
+    font-size: 25pt;
+    color:white;
+}
+
+.section-5 {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../../../../assets/images/5.png) no-repeat center center;
+    background-size: cover;
+}
+
+.intro-divider-top {
+    width: 100%;
+    border-top: 5px solid #97C93C;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-divider-bottom {
+    width: 100%;
+    border-top: 5px solid #EB5DA1;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
