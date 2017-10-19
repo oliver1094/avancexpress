@@ -4,7 +4,6 @@ import {MatSliderModule} from '@angular/material';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
-import {D3SliderDirective} from 'ng-d3-slider/d3-slider.directive';
 import { MyDatePickerModule } from 'mydatepicker';
 
 // rutas
@@ -25,8 +24,7 @@ import { SectionRequestComponent } from './components/landing-page/section-reque
     MainSlideComponent,
     SectionContactComponent,
     SectionBenefitsComponent,
-    SectionRequestComponent,
-    D3SliderDirective
+    SectionRequestComponent    
   ],
   imports: [
     BrowserModule,

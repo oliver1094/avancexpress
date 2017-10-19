@@ -45,7 +45,7 @@ public model: any = { date: { year: 2018, month: 10, day: 9 } };
     const dateAfter = new Date();
     dateAfter.setDate(date.getDate() + 48);
     console.log(dateAfter);
-    date.setDate(date.getDate() + 1);
+    date.setDate(date.getDate());
     console.log(date);
     this.myDatePickerOptions = {
       dateFormat: 'yyyy-mm-dd',
