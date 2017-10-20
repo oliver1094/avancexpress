@@ -8,11 +8,7 @@ import { SectionContactComponent } from './components/landing-page/section-conta
 import { FooterComponent } from './components/landing-page/footer/footer.component';
 
 const ROUTES: Routes = [
-    { path: 'home', component: HomeComponent },
-    { path: 'section-request', component: SectionRequestComponent },
-    { path: 'section-benefits', component: SectionBenefitsComponent },
-    { path: 'section-contact', component: SectionContactComponent },
-    { path: 'section-footer', component: FooterComponent },
+    { path: 'home', component: HomeComponent },    
     { path: '**', pathMatch: 'full', redirectTo: 'home'}
 
     // { path: '**', component: PageNotFoundComponent },

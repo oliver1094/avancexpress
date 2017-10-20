@@ -14,6 +14,7 @@ import { MainSlideComponent } from './components/landing-page/main-slide/main-sl
 import { SectionContactComponent } from './components/landing-page/section-contact/section-contact.component';
 import { SectionBenefitsComponent } from './components/landing-page/section-benefits/section-benefits.component';
 import { SectionRequestComponent } from './components/landing-page/section-request/section-request.component';
+import { MenuComponent } from './components/shared/menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { SectionRequestComponent } from './components/landing-page/section-reque
     MainSlideComponent,
     SectionContactComponent,
     SectionBenefitsComponent,
-    SectionRequestComponent    
+    SectionRequestComponent,
+    MenuComponent    
   ],
   imports: [
     BrowserModule,
